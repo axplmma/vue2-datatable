@@ -1,4 +1,3 @@
-> Choose a language · 请选择语言
+> Choose a language
 
   - [English](en/)
-  - [中文](zh-cn/)

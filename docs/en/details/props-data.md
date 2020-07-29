@@ -6,7 +6,7 @@
 Normally, it's not necessary to talk about this prop (it's too simple).  
 But this Datatable supports `nested components` feature by performing magic on it.
 
-It would be more direct to excerpt `watch:data` from the source code ([`src/index.vue`](https://github.com/OneWayTech/vue2-datatable/blob/master/src/index.vue)) to see how it works:
+It would be more direct to excerpt `watch:data` from the source code ([`src/index.vue`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/src/index.vue)) to see how it works:
 
 ```js
 watch: {
@@ -90,4 +90,4 @@ In the source template, `__nested__` would be passed to the related `tdComp` and
 By doing all these, we can control the `nested component` by `props.nested.$toggle` within the corresponding dynamic components.  
 (Of cource, you can manipulate `props.row.__nested__` directly, which is the same thing but more verbose)
 
-> In the advanced example, component [`Opt`](https://github.com/OneWayTech/vue2-datatable/blob/master/examples/src/Advanced/comps/td-Opt.vue) makes a full use of `props.nested`, which is highly recommended to study and imitate.
+> In the advanced example, component [`Opt`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/examples/src/Advanced/comps/td-Opt.vue) makes a full use of `props.nested`, which is highly recommended to study and imitate.

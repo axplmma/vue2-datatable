@@ -18,12 +18,12 @@
         </i>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a target="_blank" href="https://OneWayTech.github.io/vue2-datatable/doc">
+            <a target="_blank" href="https://laraveldaily.github.io/vue2-ld-datatable/">
               <i class="fa fa-book"></i> Documentation
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/OneWayTech/vue2-datatable">
+            <a target="_blank" href="https://github.com/LaravelDaily/vue2-ld-datatable">
               <i class="fa fa-github"></i> Github
             </a>
           </li>
@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     viewSource () {
-      window.open(`https://github.com/OneWayTech/vue2-datatable/blob/master/examples/src/${capitalize(this.showTab)}/index.vue`)
+      window.open(`https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/examples/src/${capitalize(this.showTab)}/index.vue`)
     }
   }
 }
