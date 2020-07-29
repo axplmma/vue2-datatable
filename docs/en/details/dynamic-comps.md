@@ -2,7 +2,7 @@
 
 ## ⊙ `thComp`
 
-> Source: [`src/Table/TableHeader.vue`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/src/Table/TableHeader.vue)
+> Source: [`src/Table/TableHeader.vue`](https://github.com/LaravelDaily/vue2-datatable/blob/master/src/Table/TableHeader.vue)
 
 ```html
 <!-- <th> component (thComp) -->
@@ -25,7 +25,7 @@
 
 ## ⊙ `tdComp`
 
-> Source: [`src/Table/TableBody.vue`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/src/Table/TableBody.vue)
+> Source: [`src/Table/TableBody.vue`](https://github.com/LaravelDaily/vue2-datatable/blob/master/src/Table/TableBody.vue)
 
 ```html
 <!-- <td> component (tdComp) -->
@@ -49,7 +49,7 @@
 
 ## ⊙ `nested component`
 
-> Source: [`src/Table/TableBody.vue`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/src/Table/TableBody.vue)
+> Source: [`src/Table/TableBody.vue`](https://github.com/LaravelDaily/vue2-datatable/blob/master/src/Table/TableBody.vue)
 
 ```html
 <!-- nested component -->
@@ -67,4 +67,4 @@
 | nested | Controller of the related nested component（reference to `row.__nested__`） | Object / undefined |
 | `...$props` | all the `props` from Datatable | (Spread) |
 
-> [`comps/`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/examples/src/Advanced/comps) of the advanced example covers all the use cases, which is highly recommended to study and imitate.
+> [`comps/`](https://github.com/LaravelDaily/vue2-datatable/blob/master/examples/src/Advanced/comps) of the advanced example covers all the use cases, which is highly recommended to study and imitate.

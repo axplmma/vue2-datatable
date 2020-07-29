@@ -9,21 +9,21 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">
-          vue2-ld-datatable
+          vue2-datatable
         </a>
       </div>
       <div class="collapse navbar-collapse" id="nav-collapse">
         <i class="navbar-text">
-          The best Datatable for Vue.js 2.x which never sucks
+          Datatable for Vue.js 2.x
         </i>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a target="_blank" href="https://laraveldaily.github.io/vue2-ld-datatable/">
+            <a target="_blank" href="https://laraveldaily.github.io/vue2-datatable/">
               <i class="fa fa-book"></i> Documentation
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/LaravelDaily/vue2-ld-datatable">
+            <a target="_blank" href="https://github.com/LaravelDaily/vue2-datatable">
               <i class="fa fa-github"></i> Github
             </a>
           </li>
@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     viewSource () {
-      window.open(`https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/examples/src/${capitalize(this.showTab)}/index.vue`)
+      window.open(`https://github.com/LaravelDaily/vue2-datatable/blob/master/examples/src/${capitalize(this.showTab)}/index.vue`)
     }
   }
 }

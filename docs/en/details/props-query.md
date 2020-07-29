@@ -1,6 +1,6 @@
 # `:query`
 
-Let's see how this Datatable initializes `query` (source: `created` hook in [`src/index.vue`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/src/index.vue)):
+Let's see how this Datatable initializes `query` (source: `created` hook in [`src/index.vue`](https://github.com/LaravelDaily/vue2-datatable/blob/master/src/index.vue)):
 
 ```js
 created () {
@@ -20,14 +20,14 @@ If there are any other query conditions (such as `keyword`), you should:
 
 > Both of the methods above are used in the advanced example.  
 > They both have the same purpose: make the extra query conditions [reactive](https://vuejs.org/v2/guide/reactivity.html)!  
-> (Method 2 can refer to `methods.search` in [`examples/src/Advanced/comps/th-Filter.vue`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/examples/src/Advanced/comps/th-Filter.vue))
+> (Method 2 can refer to `methods.search` in [`examples/src/Advanced/comps/th-Filter.vue`](https://github.com/LaravelDaily/vue2-datatable/blob/master/examples/src/Advanced/comps/th-Filter.vue))
 > 
 > Tips: If you are using `Ajax - GET`, don't forget to use [`encodeURIComponent`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent) to escape some special values (such as URLs, etc)
 
 ***
 
 **Hereon, I have to point out a very common bug:**  
-**Any changes to `query` should reset `query.offset` to `0` (e.g. [`examples/src/Advanced/comps/th-Filter.vue - Line 39`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/examples/src/Advanced/comps/th-Filter.vue#L39))**  
+**Any changes to `query` should reset `query.offset` to `0` (e.g. [`examples/src/Advanced/comps/th-Filter.vue - Line 39`](https://github.com/LaravelDaily/vue2-datatable/blob/master/examples/src/Advanced/comps/th-Filter.vue#L39))**  
 **Otherwise, the query result is doomed to be wrong!**
 
 ***

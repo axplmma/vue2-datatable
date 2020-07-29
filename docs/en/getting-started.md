@@ -2,7 +2,7 @@
 
 ### ⊙ npm
 
-`>_ npm i -S vue2-ld-datatable`
+`>_ npm i -S vue2-datatable`
 
 ```js
 // Webpack configuration
@@ -13,7 +13,7 @@ module: {
       loader: 'babel-loader?cacheDirectory',
       include: [
         <path to source directory>,
-        /vue2-ld-datatable/ // <-- add this!
+        /vue2-datatable/ // <-- add this!
       ]
     }
   ]
@@ -22,12 +22,12 @@ module: {
 
 ```js
 import Vue from 'vue'
-import Datatable from 'vue2-ld-datatable'
+import Datatable from 'vue2-datatable'
 
 Vue.use(Datatable) // done!
 ```
 
-Let's roll up with the basic example (source: [`examples/src/Basic/index.vue`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/examples/src/Basic/index.vue), demo: [examples#basic](https://laraveldaily.github.io/vue2-ld-datatable/examples/dist#basic))
+Let's roll up with the basic example (source: [`examples/src/Basic/index.vue`](https://github.com/LaravelDaily/vue2-datatable/blob/master/examples/src/Basic/index.vue), demo: [examples#basic](https://laraveldaily.github.io/vue2-datatable/examples/dist#basic))
 
 ```html
 <template>
@@ -69,11 +69,11 @@ export default {
 
 ### ⊙ CDN
 
-Import the latest JS and CSS file from https://unpkg.com/vue2-ld-datatable/dist in your page:
+Import the latest JS and CSS file from https://unpkg.com/vue2-datatable/dist in your page:
 
 ```
-<link href="//unpkg.com/vue2-ld-datatable/dist/min.css" rel="stylesheet">
-<script src="//unpkg.com/vue2-ld-datatable/dist/min.js"></script>
+<link href="//unpkg.com/vue2-datatable/dist/min.css" rel="stylesheet">
+<script src="//unpkg.com/vue2-datatable/dist/min.js"></script>
 ```
 
 Here is an example:
@@ -86,7 +86,7 @@ Here is an example:
   <title>CDN Example</title>
   <link href="//unpkg.com/bootstrap@3.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="//unpkg.com/vue2-ld-datatable/dist/min.css" rel="stylesheet">
+  <link href="//unpkg.com/vue2-datatable/dist/min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -95,7 +95,7 @@ Here is an example:
 <script src="//unpkg.com/vue@2.4.4/dist/vue.min.js"></script>
 <script src="//unpkg.com/jquery@2.1.4/dist/jquery.min.js"></script>
 <script src="//unpkg.com/bootstrap@3.3.5/dist/js/bootstrap.min.js"></script>
-<script src="//unpkg.com/vue2-ld-datatable/dist/min.js"></script>
+<script src="//unpkg.com/vue2-datatable/dist/min.js"></script>
 <script>
   new Vue({
     el: '#app',

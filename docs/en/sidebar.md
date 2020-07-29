@@ -11,5 +11,5 @@
   - [Dynamic Components](en/details/dynamic-comps)
 - [I18N](en/i18n)
 - [DIY](en/DIY)
-- [Q & A (issues)](https://github.com/LaravelDaily/vue2-ld-datatable/issues)
-- [Custom plugins](https://github.com/LaravelDaily/vue2-ld-datatable/tree/master/plugins)
+- [Q & A (issues)](https://github.com/LaravelDaily/vue2-datatable/issues)
+- [Custom plugins](https://github.com/LaravelDaily/vue2-datatable/tree/master/plugins)

@@ -1,6 +1,6 @@
 # § `props` of Datatable
 
-> Source: [`src/_mixins/props.js`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/src/_mixins/props.js)
+> Source: [`src/_mixins/props.js`](https://github.com/LaravelDaily/vue2-datatable/blob/master/src/_mixins/props.js)
 
 | prop | Desc | Type | Optional values | Default value | Required |
 |---|---|---|---|---|---|
@@ -20,7 +20,7 @@
 | support-backup | Whether to enable backup of `HeaderSettings` | Boolean | true / false | false | N |
 | support-nested | Whether to enable `nested components` feature (`accordion` mode is available) | Boolean / String | true / false / 'accordion' | false | N |
 
-> The advanced example (source: [`examples/src/Advanced/index.vue`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/examples/src/Advanced/index.vue), demo: [examples#advanced](https://laraveldaily.github.io/vue2-ld-datatable/examples/dist#advanced))  
+> The advanced example (source: [`examples/src/Advanced/index.vue`](https://github.com/LaravelDaily/vue2-datatable/blob/master/examples/src/Advanced/index.vue), demo: [examples#advanced](https://laraveldaily.github.io/vue2-datatable/examples/dist#advanced))  
 > almost covers all the usages, which is highly recommended to study and imitate.
 
 In the following sections, these props would be elaborated:  
