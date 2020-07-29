@@ -1,10 +1,13 @@
 {
-  "name": "vue2-datatable-component",
-  "description": "The best Datatable for Vue.js 2.x which never sucks",
+  "name": "vue2-ld-datatable",
+  "description": "Datatable for Vue.js 2.x",
   "version": "2.3.1",
   "main": "dist/min.js",
   "module": "src/main.js",
   "author": "Ken Berkeley <kenberkeley@foxmail.com>",
+  "contributors": [
+    "David Lun <mysticcode@gmail.com>"
+  ],
   "files": [
     "dist",
     "locale",
@@ -19,11 +22,11 @@
     "lint": "eslint -f node_modules/eslint-friendly-formatter build/** examples/src/** locale/** src/** test/**",
     "test": "ava",
     "pretest": "npm run lint",
-    "doc": "docsify serve doc"
+    "doc": "docsify serve docs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OneWayTech/vue2-datatable.git"
+    "url": "https://github.com/LaravelDaily/vue2-ld-datatable.git"
   },
   "keywords": [
     "vue",
