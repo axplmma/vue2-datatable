@@ -6,7 +6,7 @@
     <datatable v-bind="$data">
   </template>
   <script>
-  import dnd from 'vue2-datatable/plugins/HeaderSettingsDnD'
+  import dnd from '@laraveldaily/vue2-datatable/plugins/HeaderSettingsDnD'
 
   export default {
     mounted () {

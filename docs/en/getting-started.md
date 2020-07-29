@@ -2,7 +2,7 @@
 
 ### ⊙ npm
 
-`>_ npm i -S vue2-datatable`
+`>_ npm i -S @laraveldaily/vue2-datatable`
 
 ```js
 // Webpack configuration
@@ -22,7 +22,7 @@ module: {
 
 ```js
 import Vue from 'vue'
-import Datatable from 'vue2-datatable'
+import Datatable from '@laraveldaily/vue2-datatable'
 
 Vue.use(Datatable) // done!
 ```
