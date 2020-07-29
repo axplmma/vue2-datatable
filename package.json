@@ -1,7 +1,7 @@
 {
   "name": "@laraveldaily/vue2-datatable",
   "description": "Datatable for Vue.js 2.x",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "main": "dist/min.js",
   "module": "src/main.js",
   "author": "Ken Berkeley <kenberkeley@foxmail.com>",
