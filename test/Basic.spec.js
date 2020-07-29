@@ -2,7 +2,7 @@ import test from 'ava'
 import { pick } from 'lodash'
 import { mount } from 'avoriaz'
 import nextTick from 'p-immediate'
-import Basic from '../examples/src/Basic/index.vue'
+import Basic from '../docs/examples/src/Basic/index.vue'
 
 test.beforeEach(t => {
   const wrapper = mount(Basic)
@@ -85,7 +85,7 @@ test('pagination relevant', async t => {
     +wrapper.find('ul[name=Pagination] > li.active > a')[0].text().trim(),
     2
   )
-  
+
   /* *** user behaviors *** */
   vm.query.limit = 10 // TODO：simulate change event on select (vnode)
   t.is(vm.query.limit, 10)

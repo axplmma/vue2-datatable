@@ -26,6 +26,6 @@ The source tree [`src/`](https://github.com/LaravelDaily/vue2-ld-datatable/tree/
 
 Here is the illustration for the tree above, which is captured from the advanced example (source: [`examples/src/Advanced/index.vue`](https://github.com/LaravelDaily/vue2-ld-datatable/blob/master/examples/src/Advanced/index.vue), demo: [examples#advanced](https://laraveldaily.github.io/vue2-ld-datatable/examples/dist#advanced)):
 
-<a href="_images/structure.png" target="_blank" title="Click to enlarge">
-  <img src="_images/structure.png" alt="Structure">
+<a href="images/structure.png" target="_blank" title="Click to enlarge">
+  <img src="images/structure.png" alt="Structure">
 </a>

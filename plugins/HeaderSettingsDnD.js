@@ -6,7 +6,7 @@
     <datatable v-bind="$data">
   </template>
   <script>
-  import dnd from 'vue2-datatable-component/plugins/HeaderSettingsDnD'
+  import dnd from 'vue2-ld-datatable/plugins/HeaderSettingsDnD'
 
   export default {
     mounted () {
@@ -15,7 +15,7 @@
     ...
   }
   </script>
- 
+
  * `vm.columns` should also meet the requirement that:
  * the same-group columns should be put together
  * e.g.
@@ -42,7 +42,7 @@ export default function dnd(vm) {
   const $ColGroupContainer = $(vm.$el).find('div.-col-group-container')
   const DRAGGABLE = 'li[draggable=true]'
   const DROP_ZONE = 'li.-col-drop-zone'
-  
+
   function dropZoneGen(idx) {
     return `<li class="-col-drop-zone" target-idx="${idx}"></li>`
   }

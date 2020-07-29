@@ -1,7 +1,7 @@
 import test from 'ava'
 import { mount } from 'avoriaz'
 import nextTick from 'p-immediate'
-import Advanced from '../examples/src/Advanced/index.vue'
+import Advanced from '../docs/examples/src/Advanced/index.vue'
 import isColVisible from '../src/_utils/isColVisible'
 
 test.beforeEach(t => {

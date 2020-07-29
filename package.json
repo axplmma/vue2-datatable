@@ -19,7 +19,7 @@
     "build:examples": "vue build --config build/examples.js --prod",
     "build:lib": "vue build --config build/lib.js --prod",
     "prebuild": "npm run lint",
-    "lint": "eslint -f node_modules/eslint-friendly-formatter build/** examples/src/** locale/** src/** test/**",
+    "lint": "eslint -f node_modules/eslint-friendly-formatter build/** docs/examples/src/** locale/** src/** test/**",
     "test": "ava",
     "pretest": "npm run lint",
     "doc": "docsify serve docs"
