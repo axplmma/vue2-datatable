@@ -7,7 +7,7 @@ import App from './App.vue'
 // import Datatable from '../../dist/min.js'
 
 /* *** Use `module` version *** */
-import Datatable from '../../'
+import Datatable from '../../../'
 
 /* *** i18n example *** */
 // import locale from '../../locale/zh-cn'

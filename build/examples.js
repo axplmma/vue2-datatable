@@ -2,12 +2,12 @@
 var path = require('path')
 var webpack = require('webpack')
 var CleanWebpackPlugin = require('clean-webpack-plugin')
-var dist = path.join(__dirname, '../examples/dist')
+var dist = path.join(__dirname, '../docs/examples/dist')
 
 module.exports = {
-  entry: path.join(__dirname, '../examples/src/app.js'),
+  entry: path.join(__dirname, '../docs/examples/src/app.js'),
   html: {
-    template: path.join(__dirname, '../examples/src/index.html')
+    template: path.join(__dirname, '../docs/examples/src/index.html')
   },
   webpack: {
     devtool: false,
