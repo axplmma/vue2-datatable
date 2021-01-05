@@ -1,0 +1,17 @@
+export default {
+  /* HeaderSettings/index.vue */
+  'Apply': 'Zastosuj',
+  'Apply and backup settings to local': 'Zastosuj i zachowauj ustawieniua lokalnie',
+  'Clear local settings backup and restore': 'Przywróc domyślne',
+  'Using local settings': 'Użyj ustawień lokalnych',
+
+  /* Table/TableBody.vue */
+  'No Data': 'Brak danych',
+
+  /* index.vue */
+  'Total': 'Razem',
+  ',': ',',
+
+  /* PageSizeSelect.vue */
+  'items / page': 'elementów / strona'
+}
